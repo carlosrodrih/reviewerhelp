@@ -1,4 +1,6 @@
-
+import {Image} from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
+import Boton from './boton.png'
 function reviewerhelp(review) {
 
     if (review === null) {
@@ -12,6 +14,8 @@ function reviewerhelp(review) {
 }
 
 
-const RevButton = () => {<img id="button" src="boton.png" onclick="reviewerhelp('dwdw')"></img>}
+const RevButton = (review) => {
+    <Image src={Boton} onClick={reviewerhelp(review)}></Image>
+}
 
 export default RevButton;

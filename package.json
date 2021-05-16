@@ -1,6 +1,6 @@
 {
   "name": "reviewerhelp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just a try to see if it works",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/carlosrodrih/reviewerhelp/issues"
   },
-  "homepage": "https://github.com/carlosrodrih/reviewerhelp#readme"
+  "homepage": "https://github.com/carlosrodrih/reviewerhelp#readme",
+  "dependencies": {
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
+  }
 }
