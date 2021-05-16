@@ -12,6 +12,6 @@ function reviewerhelp(review) {
 }
 
 
-const RevButton = () => <img id="button" src="boton.png" onclick="reviewerhelp('dwdw')"></img>
+const RevButton = () => {<img id="button" src="boton.png" onclick="reviewerhelp('dwdw')"></img>}
 
-module.exports.reviewerhelp = RevButton;
+export default RevButton;
